@@ -9,5 +9,5 @@ Promtail from ceph automatically collects ceph logs.
 ceph config set client.rgw.<name> rgw_enable_ops_logs true
 ```
 
-Now, ops logs will be in /var/log/ceph/<fsid>/
+Now, ops logs will be in /var/log/ceph/\<fsid\>/
 This will be collected by promtail and sent to loki
